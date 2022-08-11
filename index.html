@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio Website</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet"> 
+   </head>
+  <body>
+  <header id="head" class="the-header">
+	  	<div class="nav-left">
+		<h2 class="logo"><a href="#">JENNIFER UHUNMWANGHO</a></h2>
+		</div>
+		<div class="nav-right">
+			<ul class="our-nav">
+			  <li><a href="#head">Home</a></li>
+			  <li><a href="#experience">About</a></li>
+			  <li><a href="#portfolio">Portfolio</a></li>
+			  <li><a href="#contact">Contact me</a></li>
+			</ul>
+		</div>
+  </header>
+  <main>
+	<section class="banner">
+	<img src="https://avatars.githubusercontent.com/u/60697633?v=4" alt="passport" class="banner-img img-format">
+	<h2>I<span class="text">’</span>m Jennifer Uhunmwangho</h2>
+	<p>Software Engineer</p>	
+	</section>
+	<section id="experience" class="container">
+	<div class="card">
+		<h2>Background</h2>
+        <p>Jennifer Uhunmwangho specializes in web and app design and development. Having completed Udacity’s Nanodegree program and received a certificate - in Front-End Web Developer [Nanodegree Program]. That’s why I am familiar with [Technologies: HTML, CSS, and JavaScript]. As part of the Nanodegree, I have completed four projects (Pixel-art-maker, Blog-Website, Landing Page ,and weather-journal-app) which received good grades and were praised by reviewers.</p>
+        <p>Prior to this role, I was an instructor at Unival Info-Tech Limited, where I specialized in understanding how students learn, recognize learning differences, are able to use multiple instructional methods, and are able to adjust curriculum and instruction accordingly. I continuously practice and learn new tools, techniques, and trends to improve my skills.</p>
+	</div>
+	<div class="card">
+		<h2>Goals</h2>
+        <p>I have skills and technology and I will help you to master the process of building web sites and increase your knowledge, skills and abilities in:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p>Coding should be easy and fun. Help others find their passion in code.</p>
+		<p class="resume-link"><a href="https://drive.google.com/file/d/1s3JRnGdQkjC8Oii0eFdYEFJ5QFNTpcyU/view?usp=sharing">VIEW MY RESUME</a></p>
+	</div>
+	</section>
+	<section id="portfolio">
+			<div class="mysections">
+			<img class="myicon" src="img/camera.png">
+			<h2 class="headings">My Portfolio</h2>
+			</div>
+			<div class="container">
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="img/image1.jpg" alt="A photo of nature">	
+				    <div class="photo-overlay">
+					  <h3>Blog Website</h3>
+					  <p>A Responsive blog Website Development written in HTML & CSS.</p>
+					  <p class="portfolio-link"><a href="https://github.com/jen123-tech/blog-website">View Project</a></p>  
+					</div>
+				</div>
+			</div>
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="img/image2.jpg" alt="Photo of a Landing Page">	
+				  <div class="photo-overlay">
+					  <h3>Landing Page</h3>
+					  <p>A Responsive Landing Page Website developed with HTML, CSS & JavaScript.</p>
+					  <p class="portfolio-link"><a href="https://github.com/jen123-tech/landing-page">View Project</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="img/image3.jpg" alt="Weather photo">	
+				  <div class="photo-overlay">
+					  <h3>Weather Journal App</h3>
+					  <p>A Weather Journal App to retrieve weather records written in HTML, CSS & JavaScript.</p>
+					  <p class="portfolio-link"><a href="https://github.com/jen123-tech/weather-journal-app">View Project</a></p>
+					</div>
+				</div>
+			</div>		
+	</div>	
+	</section>
+	<section id="contact">
+		<div class="mysections">
+		<img class="myicon" src="img/message.png" alt="message icon">
+	    <h2 class="headings">Contact</h2>
+		<p class="subheadings">Have a question? Ask me anything.</p>
+		</div>
+		<form action="mailto:jenworx7@gmail.com" method="POST" class="form-format" enctype="text/plain">
+            <div>
+			<label for="fullname" class="form-label">Full Name</label><br>
+			<input id="fullname" class="form-input" type="text" name="full-name" placeholder="e.g John Chris" required>
+			</div>			
+			<div>
+			<label for="youremail" class="form-label">Your Email Address</label><br>
+			<input id="youremail" class="form-input" type="email" name="email-address" placeholder="e.g me@yahoo.com" required>
+            </div>			
+			<div>
+			<label for="yourphone" class="form-label">Your Phone Number</label><br>
+			<input id="yourphone" class="form-input" type="tel" name="phone-number" placeholder="e.g 09014567890" pattern="[0-9]{11}" maxlength="11" required>
+			</div>
+            <div>
+			<label for="subject"class="form-label">Subject</label><br>
+			<input id="subject" class="form-input"type="text" name="subject" required>
+			</div>
+			<div>
+			<label for="message" class="form-label">Enter Your Message</label><br>
+			<textarea id="message" class="form-input" rows="5" name="message" required></textarea>
+			</div>
+			<button type="submit" class="form-button">Send Message</button>
+		</form>
+	</section>
+  </main>
+  <footer>
+  		<ul>
+			
+			<li><a href="https://www.linkedin.com/in/jennifer-uhunmwangho/" class="social" target="_blank"><img class="myicon" src="img/linkedin.png" alt="linkedin icon"><br>Linkedin</a></li>
+            <li><a href="https://github.com/jen123-tech" class="social" target="_blank"><img class="myicon" src="img/github.png" alt="github icon"><br>Github</a></li>
+            <li><a href="https://www.upwork.com/freelancers/~01e6a18083b4cdbabc" class="social" target="_blank"><img class="myicon" src="img/upwork.png" alt="upwork icon"><br>Upwork</a></li>
+		</ul>
+		 <p class="copyright">(c) 2022. JENNIFER UHUNMWANGHO. All Right Reserved</p>
+  </footer>
+</body>
+</html>
