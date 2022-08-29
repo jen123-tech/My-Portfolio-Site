@@ -46,16 +46,16 @@ body{
 
 .banner p{
 	color: #ffffff;
-	padding-bottom: 90px;
+	padding-bottom: 50px;
 	text-align: center;
 	text-shadow: 1px 1px 5px;
 }
 
 .banner-img{
-	margin-top: 90px;
+	margin-top: 60px;
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 }
 .text{
 	color: #FCD35D;
